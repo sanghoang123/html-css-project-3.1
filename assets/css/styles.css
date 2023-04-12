@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #143c3c;
+  --secondary-color: #e2eddf;
+  --font-public-sans: 'Public Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Common */
+
+a {
+  text-decoration: none;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.container {
+  width: 1140px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+
+.btn {
+  --height: 57px;
+  display: inline-block;
+  min-width: 173px;
+  height: var(--height);
+  line-height: var(--height);
+  padding: 0 20px;
+  text-align: center;
+  color: #ffffff;
+  background: #143c3c;
+  border-radius: 99px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  border: 1px solid #143c3c;
+  transition: 0.25s;
+}
+
+.btn:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
