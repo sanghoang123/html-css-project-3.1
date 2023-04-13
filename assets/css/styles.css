@@ -249,3 +249,61 @@ button {
   top: 14px;
   left: -37px;
 }
+
+/* Logo */
+
+.logo {
+  margin-top: 42px;
+}
+
+.logo__row {
+  padding: 76px 0 76px;
+  display: flex;
+  justify-content: center;
+  background: var(--secondary-color);
+  border-radius: 100px;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.logo__link--google {
+  font-weight: 500;
+  font-size: 3.1rem;
+  line-height: 1.5;
+}
+
+.logo__link--stack {
+  margin-left: 47px;
+  column-gap: 3px;
+  font-weight: 600;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+.logo__link--agworld {
+  margin-left: 51px;
+  column-gap: 11px;
+  font-size: 2.6rem;
+  line-height: 1.4;
+  color: #163c35;
+}
+
+.logo__link--riotinto {
+  margin-left: 64px;
+  font-size: 2.3rem;
+  line-height: 1.3;
+}
+
+.logo__link--heroku {
+  margin-left: 63px;
+  column-gap: 14px;
+  font-weight: 600;
+  font-size: 1.9rem;
+  line-height: 1.3;
+  letter-spacing: 0.105em;
+}
