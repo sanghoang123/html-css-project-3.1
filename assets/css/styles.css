@@ -392,3 +392,48 @@ button {
   color: #ffffff;
   background-color: var(--primary-color);
 }
+
+.services__list {
+  margin-top: 76px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 16px;
+}
+
+.services__item {
+  border-radius: 20px;
+  background: #ffffff;
+  overflow: hidden;
+  transition: 0.25s;
+}
+
+.services__item:hover {
+  box-shadow: -6px 9px 64px -4px rgba(118, 118, 118, 0.25);
+}
+
+.services__thumb {
+  width: 370px;
+  height: 318px;
+  object-fit: cover;
+}
+
+.services__text {
+  padding: 0 0 23px 18px;
+  max-width: 286px;
+}
+
+.services__heading {
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 1;
+  color: #152427;
+}
+
+.services__desc {
+  margin-top: 18px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  color: #7d8188;
+}
