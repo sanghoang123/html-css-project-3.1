@@ -600,3 +600,34 @@ button {
   top: 32px;
   left: 62px;
 }
+
+.about__desc {
+  margin-top: 11px;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.62;
+  color: #7d8188;
+}
+
+.about-sub {
+  margin-top: 38px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  border-bottom: 1px solid #83a17d;
+}
+
+.about-sub__percent {
+  font-weight: 600;
+  font-size: 4.2rem;
+  line-height: 1.24;
+  color: #152427;
+}
+
+.about-sub__desc {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.71;
+  color: #7d8188;
+}
