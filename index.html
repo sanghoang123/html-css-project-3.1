@@ -298,7 +298,63 @@
                 </ul>
             </div>
         </section>
+        <!-- Project -->
+        <section class="project">
+            <div class="container">
+                <div class="project__head">
+                    <h2 class="section-heading section-heading--line project__heading">A quick glance of our past
+                        projects</h2>
+                    <div class="project__info">
+                        <p class="project__desc">Are you strive for the fast project simplicity and clarity. Great
+                            design is born of those two things.
+                        </p>
+                        <a href="#!" class="project__link">Browse all Projects
+                            <svg class="project__svg" width="22" height="12" viewBox="0 0 22 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 6.29415H21M21 6.29415L15.7059 1.00003M21 6.29415L15.7059 11"
+                                    stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="project__media">
+                    <video class="project__video">
+                        <source src="./assets/video/video-1.mp4" type="video/mp4">
+                        Your browser does not support HTML video.
+                    </video>
+                    <button class="project__play">
+                        <img src="./assets/icons/play-icon.svg" alt="Play video Icon">
+                    </button>
+                </div>
+                <div class="decorate project__decorate">
+                    <div class="decorate__images">
+                        <img src="./assets/icons/propeller.svg" alt="Propeller"
+                            class="decorate__img decorate__img--pos project__decorate-img">
+                        <img src="./assets/icons/line.svg" alt="Line" class="decorate__img ">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+    <script>
+        const btn = document.querySelector('.project__play');
+        const eleVideo = document.querySelector('.project__video')
+        btn.addEventListener('click', () => playVideo())
+
+        function playVideo() {
+            btn.style.display = "none";
+            eleVideo.setAttribute("controls", "controls");
+            playPause()
+        }
+
+        function playPause() {
+            if (eleVideo.paused)
+                eleVideo.play();
+            else
+                eleVideo.pause();
+        } 
+    </script>
 </body>
 
 </html>
